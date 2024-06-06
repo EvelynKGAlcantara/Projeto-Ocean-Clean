@@ -1,6 +1,12 @@
 ol li {
   margin-left: 0.9em;
 }
+.font {
+  color: #0c5c83;
+}
+.background-color {
+  background: #01283c;
+}
 .form-control-dark {
   border-color: var(--bs-gray);
 }
