@@ -1,0 +1,511 @@
+ol li {
+  margin-left: 0.9em;
+}
+.form-control-dark {
+  border-color: var(--bs-gray);
+}
+.form-control-dark:focus {
+  border-color: #fff;
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+
+.text-small {
+  font-size: 85%;
+}
+
+.dropdown-toggle:not(:focus) {
+  outline: 0;
+}
+
+.btn-primary {
+  background: rgb(68, 77, 196);
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+}
+
+/* MARKETING CONTENT
+  -------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+/* rtl:begin:ignore */
+.marketing .col-lg-4 p {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+}
+/* rtl:end:ignore */
+
+/* Featurettes
+  ------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+/* rtl:begin:remove */
+.featurette-heading {
+  letter-spacing: -0.05rem;
+  color: #0c5c83;
+  margin-bottom: 0.9em;
+}
+
+/* rtl:end:remove */
+
+/* RESPONSIVE CSS
+  -------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 3rem;
+  }
+}
+
+.btn-rounded {
+  border-radius: 50px; /* Ajuste o valor conforme necessário para obter o efeito desejado */
+  padding: 12px 25px;
+  background-color: #f7c96b;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  cursor: default;
+}
+
+a {
+  cursor: pointer;
+}
+
+.topo header ul.nav-pills {
+  margin-top: 1em;
+  text-align: right;
+}
+
+.fim {
+  background-color: #01283c !important;
+  display: block;
+}
+footer {
+  color: #fff;
+  padding-bottom: 36em;
+}
+footer .border-top {
+  border-color: #0a4361 !important;
+}
+.nav-link {
+  color: #759fb5 !important;
+  padding: 4 12px;
+  border: 1px solid #01283c;
+  border-radius: 0;
+}
+.nav-link:hover {
+  color: #f7c96b !important;
+  border: 1px solid #f7c96b;
+  border-radius: 0;
+}
+footer h4 {
+  display: table;
+  clear: both;
+  margin-right: 2em;
+  margin-top: 0.9em;
+  border: 1px solid #01283c !important;
+  float: left;
+}
+footer .nav-link,
+footer .nav-link:hover {
+  border: 0;
+}
+header .nav-link {
+  color: #fff !important;
+}
+
+.logo {
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 15px 25px;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 700;
+}
+a.logo:hover {
+  color: #f7c96b;
+  border-color: #f7c96b;
+}
+.logo span {
+  font-weight: 200;
+}
+.grande {
+  font-size: 5em;
+  border-width: 4px;
+  margin-bottom: 1em;
+  opacity: 50%;
+}
+
+.topo {
+  background-color: #01283c !important;
+  display: block;
+  margin: 0;
+  clear: both;
+  border: 1px solid #000;
+  padding: 1.4em 0;
+}
+.DestaqueDiferente {
+  text-shadow: 2px 2px 4px rgba(128, 128, 128, 0.5);
+  margin: 0 auto;
+  background-image: url("../assets/robo-coletor2.png");
+  background-size: cover; /* Faz com que a imagem cubra toda a área da caixa */
+  background-position: center; /* Centraliza a imagem */
+  background-repeat: no-repeat; /* Evita que a imagem se repita */
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  width: 100%;
+}
+#destaquediferente {
+  text-align: start;
+  margin-left: 0 !important;
+}
+
+.DestaqueDiferente3 {
+  margin: 0 auto;
+  background-image: url("../assets/ilustra-1.png");
+  background-size: cover; /* Faz com que a imagem cubra toda a área da caixa */
+  background-position: center; /* Centraliza a imagem */
+  background-repeat: no-repeat; /* Evita que a imagem se repita */
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+#txtbene {
+  margin-top: 3rem !important;
+}
+#txtbene1 {
+  margin-top: 5rem !important;
+}
+#divbene {
+  padding-left: 50px;
+}
+#divbene1 {
+  padding-left: 50px;
+}
+#divbene2 {
+  margin-left: 50px;
+}
+.DestaqueDiferente4 {
+  margin: 0 auto;
+  background-image: url("../assets/robo-coletor3.png");
+  background-size: cover; /* Faz com que a imagem cubra toda a área da caixa */
+  background-position: center; /* Centraliza a imagem */
+  background-repeat: no-repeat; /* Evita que a imagem se repita */
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Aqui é o destaque de 3 imagens em sequencia */
+.tituloDestaque {
+  background-color: #01283c;
+  margin: 0;
+}
+.tituloDestaque span {
+  display: none;
+}
+.tituloDestaque H1 {
+  text-align: center;
+  padding: 10vh 20px;
+  font-size: 4em;
+  color: #fff;
+}
+.box {
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+.box1 {
+  background-image: url("../assets/tartaruga.jpg");
+}
+.box2 {
+  background-image: url("../assets/lixonorio.jpg");
+}
+.box3 {
+  background-image: url("../assets/foca.png");
+}
+.box4 {
+  background-image: url("../assets/robo-coletor.png");
+}
+.box5 {
+  background-image: url("../assets/robo-coletor2.png");
+}
+.box6 {
+  background-image: url("../assets/robo-coletor3.png");
+}
+.box7 {
+  background-image: url("../assets/robo-coletor3.png");
+}
+.box8 {
+  background-image: url("../assets/robo-coletor2.png");
+}
+.box9 {
+  background-image: url("../assets/robo-coletor5.png");
+}
+
+.imagem1 {
+  background-image: url("../assets/agua-limpa.png");
+  background-size: cover; /* Faz com que a imagem cubra toda a área da caixa */
+  background-position: center; /* Centraliza a imagem */
+  background-repeat: no-repeat; /* Evita que a imagem se repita */
+  color: white;
+  height: 500px;
+  width: 500px;
+}
+
+.imagem2 {
+  background-image: url("../assets/3D.jpg");
+  background-size: cover; /* Faz com que a imagem cubra toda a área da caixa */
+  background-position: center; /* Centraliza a imagem */
+  background-repeat: no-repeat; /* Evita que a imagem se repita */
+  color: white;
+  height: 500px;
+  width: 500px;
+}
+
+.imagem3 {
+  background-image: url("../assets/robo-coletor3.png");
+  background-size: cover; /* Faz com que a imagem cubra toda a área da caixa */
+  background-position: center; /* Centraliza a imagem */
+  background-repeat: no-repeat; /* Evita que a imagem se repita */
+  color: white;
+  height: 500px;
+  width: 500px;
+}
+.imagem4 {
+  background-image: url("../assets/destaque.jpg");
+  background-size: cover; /* Faz com que a imagem cubra toda a área da caixa */
+  background-position: center; /* Centraliza a imagem */
+  background-repeat: no-repeat; /* Evita que a imagem se repita */
+  color: white;
+  height: 500px;
+  width: 100%;
+}
+.imagem5 {
+  background-image: url("../assets/lucas_mendes.jpeg");
+  background-size: cover; /* Faz com que a imagem cubra toda a área da caixa */
+  background-position: center; /* Centraliza a imagem */
+  background-repeat: no-repeat; /* Evita que a imagem se repita */
+  color: white;
+  height: 500px;
+  width: 100%;
+}
+.imagem6 {
+  background-image: url("../assets/marina_santos.jpeg");
+  background-size: cover; /* Faz com que a imagem cubra toda a área da caixa */
+  background-position: center; /* Centraliza a imagem */
+  background-repeat: no-repeat; /* Evita que a imagem se repita */
+  color: white;
+  height: 500px;
+  width: 100%;
+}
+.imagem7 {
+  background-image: url("../assets/dr_joao_silva.jpeg");
+  background-size: cover; /* Faz com que a imagem cubra toda a área da caixa */
+  background-position: center; /* Centraliza a imagem */
+  background-repeat: no-repeat; /* Evita que a imagem se repita */
+  color: white;
+  height: 500px;
+  width: 100%;
+}
+
+.MaisDestaques {
+  margin: 3em 0;
+}
+.MaisDestaques .ilustration1 {
+  background-image: url("../assets/paixes\ de\ plastico.jpg");
+}
+.MaisDestaques .ilustration2 {
+  background-image: url("../assets/oceano\ poluido.jpg");
+}
+.MaisDestaques .ilustration3 {
+  background-image: url("../assets/destaque3.jpg");
+}
+
+.MaisDestaques .ilustration1,
+.MaisDestaques .ilustration2,
+.MaisDestaques .ilustration3 {
+  background-size: cover; /* Faz com que a imagem cubra toda a área da caixa */
+  background-position: center; /* Centraliza a imagem */
+  background-repeat: no-repeat; /* Evita que a imagem se repita */
+  color: white;
+  height: 200px;
+  width: 100%;
+}
+
+.MaisDestaques .ilustration1 span,
+.MaisDestaques .ilustration2 span,
+.MaisDestaques .ilustration3 span {
+  display: none;
+}
+
+.MaisDestaques h2 {
+  color: #2f91aa;
+}
+
+.CarroselDestaque1 {
+  background-image: url("../assets/robo-coletor3.png");
+}
+.CarroselDestaque2 {
+  background-image: url("../assets/robo-coletor.png");
+}
+.CarroselDestaque3 {
+  background-image: url("../assets/robo-coletor.png");
+}
+
+.CarroselDestaque1,
+.CarroselDestaque2,
+.CarroselDestaque {
+  text-shadow: 2px 2px 4px rgba(128, 128, 128, 0.5);
+  margin: 0 auto;
+
+  background-size: cover; /* Faz com que a imagem cubra toda a área da caixa */
+  background-position: center; /* Centraliza a imagem */
+  background-repeat: no-repeat; /* Evita que a imagem se repita */
+  display: flex;
+  height: 40vh;
+  width: 100vw;
+}
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+/* rtl:begin:ignore */
+.marketing .col-lg-4 p {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+}
+/* rtl:end:ignore */
+
+.lead strong {
+  font-weight: 900 !important;
+}
+
+.text-bg-dark {
+  background-color: #01283c !important;
+}
+
+/* Breakpoint mobile */
+
+@media screen and (max-width: 1380px) {
+  .featurette .col-md-7 {
+    display: block;
+    width: 100%;
+  }
+  .featurette .col-md-5 {
+    display: block;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .MaisDestaques .col-lg-4 {
+    margin-top: 2em;
+  }
+}
+
+@media screen and (max-width: 765px) {
+  .box {
+    width: 100%;
+  }
+
+  .topo header {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .topo header .logo {
+    margin: 0 auto;
+  }
+  ul.nav-pills {
+    border: 0px solid #000;
+    margin: 0 auto;
+    margin-top: 2em;
+  }
+
+  .featurette {
+    padding: 0 1.1em;
+  }
+  .align-items-md-stretch .col-md-6 {
+    margin-top: 1em;
+  }
+
+  .container br {
+    display: none;
+  }
+
+  footer h4 {
+    display: block;
+    clear: both;
+    margin-bottom: 2em;
+  }
+  footer .row {
+    display: table;
+    clear: both;
+    margin-top: 2em;
+  }
+
+  .DestaqueDiferente h1 {
+    font-size: 1.8em;
+    padding: 5px 2em;
+  }
+  .DestaqueDiferente h2 {
+    font-size: 1.1em;
+    padding: 5px 2em;
+  }
+}
