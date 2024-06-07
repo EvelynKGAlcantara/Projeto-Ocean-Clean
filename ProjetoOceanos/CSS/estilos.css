@@ -486,6 +486,9 @@ a.logo:hover {
     margin: 0 auto;
     margin-top: 2em;
   }
+  ul.nav-pills li.nav-item {
+    margin: 0 auto;
+  }
 
   .featurette {
     padding: 0 1.1em;
